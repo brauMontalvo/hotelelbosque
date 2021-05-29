@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Flat&display=swap');
+
+*{
+    font-family: 'Nova Flat', cursive;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFC872;
+}
+
+
+#admin{
+    background: url(../img/adminfond.jpg);
+    background-color: rgb(100, 100, 100);
+    background-blend-mode: soft-light;
+}
+
+#huesp{
+    background-color: rgb(108, 143, 64);
+}
+
+table{
+    margin-top: 40px;
+    margin-left:40px;
+    text-shadow: 1px 1px 2px black, 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    width: 75%;
+    border: rgb(30, 253, 0) 3px solid;
+    padding: 20px;
+    margin-bottom: 15px;
+    background: url('https://cdn.ticbeat.com/src/uploads/2018/03/mejores-hoteles-del-mundo-810x540.jpg');
+    border-style: groove;
+
+}
+
+strong{
+color: rgb(94, 255, 0);
+
+}
+
+#tablaestela{
+    width: 75%;
+    border: rgb(206, 0, 120) 3px solid;
+    padding: 20px;
+    margin-bottom: 25px;
+    background: url('https://i.pinimg.com/originals/21/ae/8e/21ae8e3a0cc6fbbfeaa3a0d9e577478a.png');
+}
+
+#aldair{
+    margin-top: 30px;
+    width: 50%;
+    border: rgb(0, 238, 255) 3px solid;
+    padding: 20px;
+    margin-bottom: 35px;
+    background: url('https://cdn.wallpapersafari.com/46/12/QwTKBP.jpg');
+}
+
+li {
+    float: left;
+}
+
+th{
+    color: white;
+    font-size: larger;
+    text-align: center;
+}
+
+#enlace{
+background-color: rgb(141, 248, 239);
+
+}
+
+h1,h3{
+    color: white;
+    text-align: center;
+}
+
+p{
+    color: white;
+    text-align: center;
+    font-size: large;
+}
+
+#cal{
+    color: khaki;
+    font-size: 150%;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    font-size: 180%;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(0, 110, 255);
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.dropdown-content a:hover {background-color: #eb9696}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+img{
+padding-top: 10px;
+
+}
+
+#selected {
+background-color: rgb(0, 110, 255);
+
+
+}
+
+.cerrar :hover {
+background-color:rgba(255, 0, 0, 0.808) ;
+
+}
+
+td a{
+color:skyblue;
+
+}
+
+td{
+padding: 10px;
+text-align: center;
+}
+
+
+
+footer{
+    color:rgb(42, 240, 240);
+	background-color: rgba(8, 170, 8, 0.589);
+	text-align: right;
+    position: fixed;
+  	bottom: 0;  
+	padding-left: 10px;
+	padding-right: 10px;
+    }
